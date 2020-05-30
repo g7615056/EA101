@@ -907,7 +907,7 @@ console.log(daybar);
  			// dayinner   (week+day-1);
 
   			var obj = JSON.parse(datejson);
-  			console.log(obj.mm);
+  			console.log(obj.yy);
   			console.log(year);
   			console.log(obj.mm);
 			console.log(month);
@@ -915,7 +915,7 @@ console.log(daybar);
   			
   			if(obj.yy === year && obj.mm === month ){
   				console.log("ok");
-  				$("#dotsul12").find("li").eq(1).attr("class", "orange");
+  				$("#dotsul15").find("li").eq(1).attr("class", "orange");
   				switch(obj.tt){
   					case 10:
   					$("#openul34").find("li").eq(1).attr("class", "orange l4 a1");
